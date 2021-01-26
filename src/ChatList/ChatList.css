@@ -1,0 +1,11 @@
+.chatListContainer{
+    padding-top: 100px;
+    display: list-item;
+    list-style-type: none;
+    width: 30vw;
+    overflow: hidden;
+}
+.messageList{
+    height: 65vh;
+    overflow-y: auto;
+}

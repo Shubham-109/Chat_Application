@@ -1,0 +1,130 @@
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #d9d9d9;
+  }
+
+.chatBoxContainer{
+    width: 45vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.chatBoxWrapper{
+    width: 100%;
+    background: #fff;
+    border-radius: 2px;    
+    height: 90vh;
+    display: list-item;
+    list-style-type: none;
+    box-shadow:  0px 2px 10px 3px rgb(201, 214, 224);
+}
+.chatBoxTopHeader{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-bottom: 0;
+}
+.chatBoxHeaderLeft{
+    display: flex;
+}
+.chatBoxHeaderImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.chatBoxHeaderName{
+    font-size: 12px;
+    font-weight: 600;
+}
+.chatBoxHeaderStatus{
+    font-size: 11px;
+    color: #2A8BF2;
+}
+.chatBoxHeaderBtns{
+    display: flex;
+}
+.chatBoxHeaderBtns i{
+    margin: 5px 10px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    font-size: 14px;
+    box-shadow:  0px 1px 10px 3px #eee;
+    cursor: pointer;
+}
+.chatBoxBody{
+    margin: 0;
+    height: 80%;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.chatBoxFooter{
+    height: 10%;
+    padding: 5px 10px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerLeft{
+    display: flex;
+}
+.chatBoxFooter input{
+    width: 120%;
+    padding: 5px 10px;
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.chatBoxFooter i{
+    margin: 2px 15px;
+}
+.chatBoxFooter .add , .send{
+    color: #fff;
+    border-radius: 50% ;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(to right ,#7ab1ec 0% ,#2A8BF2 80%);
+    cursor: pointer;
+    box-shadow: 0px 1px 5px 1px #89b7e9;
+}
+.chatBoxFooter .emoji{
+    font-size: 22px;
+    margin-top: 5px;
+    color: #757880;
+    cursor: pointer;
+}
+.chatBoxFooter .send{
+    font-size: 12px;
+}
+.footerRight{
+    display: flex;
+}
+.fa-ellipsis-v , .fa-check , .fa-check-double{
+    font-size: 11px;
+    color: #aaa;
+}

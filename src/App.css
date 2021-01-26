@@ -1,0 +1,21 @@
+.App {
+  background: #E6ECFE;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #eee;
+}
